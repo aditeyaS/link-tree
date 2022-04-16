@@ -1,0 +1,20 @@
+.item-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    font-size: larger;
+    align-items: center;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 20px;
+}
+.item-icon {
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+a {
+    text-decoration: none;
+}

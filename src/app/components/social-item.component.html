@@ -1,0 +1,10 @@
+<a [href]="socialItem?.link"
+    target="_blank"
+   >
+   <div class="item-container" [ngStyle]="{'border-color': socialItem?.color, 'color': socialItem?.color}">
+       <img class="item-icon" 
+       [src]="'assets/' + socialItem?.name?.toLowerCase() + '.png'"
+       />
+       {{ socialItem?.name }}
+   </div>
+</a>

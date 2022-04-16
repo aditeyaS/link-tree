@@ -1,0 +1,9 @@
+<div class="container">
+    <div *ngFor="let socialCategory of socialCategoryList; index as index;" class="social-container">
+        <h3 [ngClass]="{'margin-top-50': index!=0}">{{ socialCategory.title }}</h3>
+        <div class="social-item-container">
+            <app-social-item *ngFor="let socialItem of socialCategory.items" [socialItem]="socialItem">
+            </app-social-item>
+        </div>
+    </div>
+</div>
